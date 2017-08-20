@@ -1,0 +1,16 @@
+.stars {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+}
+.stars .star {
+    background: url(http://ou2gp2r4n.bkt.clouddn.com/assets/imgs/ng2/star-off.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.stars .star.selected {
+    background: url(http://ou2gp2r4n.bkt.clouddn.com/assets/imgs/ng2/star-on.png) no-repeat;
+}
