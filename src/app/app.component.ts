@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    public starCnt: number; // 用户评定的星星数量
+    // 用户评定的星星数量
+    public starCnt: number;
 
     public selectChange(index) {
         this.starCnt = index;
